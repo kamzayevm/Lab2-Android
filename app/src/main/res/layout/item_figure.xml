@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/figureName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Julius Caesar"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/figureTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Title"
+            android:textColor="#3C3C3C"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/figureBorn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Born"
+            android:textSize="16dp"
+            android:textColor="#3C3C3C"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/figureDied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Died"
+            android:textSize="16dp"
+            android:textColor="#3C3C3C"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/figureNationality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nationality"
+            android:textSize="16dp"
+            android:textColor="#3C3C3C"
+            android:layout_marginTop="8dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
